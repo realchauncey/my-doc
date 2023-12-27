@@ -1,4 +1,4 @@
-#windows11安装wsl2
+# windows11安装wsl2
 ##一、安装wsl
 要想在windows11家庭版中安装wsl2，首先要在启用和关闭Windows功能中，勾选适用于linux的Windows子系统和Hyper-V，（勾选完后要重启）如下图：
 
