@@ -1,5 +1,5 @@
 # windows11安装wsl2
-##一、安装wsl
+## 一、安装wsl
 要想在windows11家庭版中安装wsl2，首先要在启用和关闭Windows功能中，勾选适用于linux的Windows子系统和Hyper-V，（勾选完后要重启）如下图：
 
 <img src="../img/wsl/1.webp"/>
@@ -25,7 +25,7 @@ Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /LimitAccess /AL
 ```
 复制以上代码到一个文本文件中，并改后缀bat，运行这个可执行文件来安装。
 
-##二、升级wsl到wsl2
+## 二、升级wsl到wsl2
 
 根据系统下载升级包进行更新
 
@@ -33,7 +33,7 @@ x64: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
 arm64：https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_arm64.msi
 
-##三、选择linux分发版本
+## 三、选择linux分发版本
 
 在Microsoft store中选择一个版本安装
 
